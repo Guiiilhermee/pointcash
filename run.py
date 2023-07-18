@@ -46,27 +46,27 @@ class atm_machine:
             print("4. Check balance")
             print("0. Exit")
 
-account_number = input("Enter your account number: ")
+account_number = input("Enter your account number:\n ")
 pin = input("Enter your PIN: ")
 atm = atm_machine(account_number, pin)
 
 while True:
     atm.options()
-    options = input("Enter the desired option number: ")
+    options = input("Enter the desired option number:\n ")
 
     if options == "0":
         break
 
     if options == "1":
-        balance = float(input("Enter the deposit amount: €"))
+        balance = float(input("Enter the deposit amount:\n €"))
         atm.deposit(balance)
 
      elif options == "2":
-        balance = float(input("Enter the withdraw amount: €"))
+        balance = float(input("Enter the withdraw amount:\n €"))
         atm.withdraw(balance)
 
     elif options == "3":
-        balance = float(input("Enter the transfer amount: €"))
+        balance = float(input("Enter the transfer amount:\n €"))
         destination_account = atm_machine(account_number, pin)
         atm.transfer(balance, destination_account)
 
