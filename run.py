@@ -21,12 +21,12 @@ class atm_machine:
 
     def deposit(self, balance):
         self.deposit += balance
-        print(f"Successfully done! €{balance:.2f} Balance:€{self.balance:.2f}")
+        print(f"Done! €{balance:.2f} Balance: €{self.balance:.2f}")
 
     def withdraw(self, balance):
         if self.balance >= balance:
             self.balance -= balance
-            print(f"Successfully done! €{balance:.2f} Balance:€{self.balance:.2f}")
+            print(f"Done! €{balance:.2f} Balance: €{self.balance:.2f}")
         else:
             print("Insufficient balance.")
 
