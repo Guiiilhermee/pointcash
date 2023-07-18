@@ -28,3 +28,15 @@ class atm_machine:
             print(f"Successfully done! €{balance:.2f} Balance: €{self.balance:.2f}")
         else:
             print("Insufficient balance.")
+
+        def transfer(self, balance, destination_account):
+        if self.balance >= balance:
+            self.balance -= balance
+            destination_account.balance += balance
+            print(f"Successfully done! €{balance:.2f}")
+            print(f"current balance: €{self.balance:.2f}")
+        else:
+            print("Insufficient balance for transfer.")
+
+        
+
