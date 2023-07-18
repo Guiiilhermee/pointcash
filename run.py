@@ -17,3 +17,7 @@ class atm_machine:
         self.account_number = account_number
         self.pin = pin
         self.balance = 1500
+
+        def deposit(self, balance):
+        self.balance += balance
+        print(f"Successfully done! €{balance:.2f} Balance: €{self.balance:.2f}")
