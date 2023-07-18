@@ -46,5 +46,8 @@ class atm_machine:
             print("4. Check balance")
             print("0. Exit")
 
+account_number = input("Enter your account number: ")
+pin = input("Enter your PIN: ")
+atm = atm_machine(account_number, pin)
         
 
