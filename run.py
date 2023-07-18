@@ -26,7 +26,7 @@ class atm_machine:
     def withdraw(self, balance):
         if self.balance >= balance:
             self.balance -= balance
-        print(f"Successfully done! €{balance:.2f} Balance:€{self.balance:.2f}")
+            print(f"Successfully done! €{balance:.2f} Balance:€{self.balance:.2f}")
         else:
             print("Insufficient balance.")
 
