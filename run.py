@@ -38,5 +38,13 @@ class atm_machine:
         else:
             print("Insufficient balance for transfer.")
 
+        def options(self):
+            print("Options:")
+            print("1. Deposit")
+            print("2. Withdraw")
+            print("3. Transfer")
+            print("4. Check balance")
+            print("0. Exit")
+
         
 
