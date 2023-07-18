@@ -60,3 +60,12 @@ while True:
     if options == "1":
         balance = float(input("Enter the deposit amount: €"))
         atm.deposit(balance)
+
+     elif options == "2":
+        balance = float(input("Enter the withdraw amount: €"))
+        atm.withdraw(balance)
+
+    elif options == "3":
+        balance = float(input("Enter the transfer amount: €"))
+        destination_account = atm_machine(account_number, pin)
+        atm.transfer(balance, destination_account)
