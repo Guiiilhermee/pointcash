@@ -69,3 +69,11 @@ while True:
         balance = float(input("Enter the transfer amount: €"))
         destination_account = atm_machine(account_number, pin)
         atm.transfer(balance, destination_account)
+
+    elif options == "4":
+        atm.check_balance()
+
+    else:
+        print("Invalid option. Please try again.")
+
+print("Thanks for using Cash point.")
