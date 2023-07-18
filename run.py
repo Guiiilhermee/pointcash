@@ -49,5 +49,14 @@ class atm_machine:
 account_number = input("Enter your account number: ")
 pin = input("Enter your PIN: ")
 atm = atm_machine(account_number, pin)
-        
 
+while True:
+    atm.options()
+    options = input("Enter the desired option number: ")
+
+    if options == "0":
+        break
+
+    if options == "1":
+        balance = float(input("Enter the deposit amount: €"))
+        atm.deposit(balance)
