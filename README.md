@@ -30,6 +30,14 @@ Option 4 will show up your balance and option 5 will finish your operation.
 
 ### Existing Features
 
+- Firstly the program shows to enter the Account Number
+- Secondly to enter with a PIN number
+
+![Account number](https://user-images.githubusercontent.com/127660583/254709726-a7e44e9d-e1c0-4859-a7bd-270360c919f6.png)
+
+
+![PIN number](https://user-images.githubusercontent.com/127660583/254709727-84865923-a48b-477f-a92b-b40df2653de0.png)
+
 
 
 ### Future Features
