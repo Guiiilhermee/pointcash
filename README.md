@@ -1,32 +1,62 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Point Cash
 
-Welcome,
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+ Here is the live version of my project. - https://cash-point-2ee1f9c68969.herokuapp.com/
+![mock responsive]()
 
-## Reminders
+## How to use it
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+## Features 
 
-## Creating the Heroku app
+### Existing Features
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
 
-1. `heroku/python`
-2. `heroku/nodejs`
+### Features left to implement
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+- When there is time, I would like to include few more geographic questions.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+### Data Model
 
-Connect your GitHub repository and deploy as normal.
+- When there is time, I would like to include few more geographic questions.
 
-## Constraints
+### Testing 
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+- I tested playing this quiz in different browsers: Chrome, Firefix and Microsoft Edge.
 
----
+- The results of this game are always correct.
 
-Happy coding!
+- I confirm that the colors and fonts are easy to read and understand.
+
+
+
+### Bugs
+
+- Solved bugs
+
+    - I discovered this because I had try to access an undefined variable
+    
+    “uncaught typeerror: cannot read property”
+
+    
+
+
+### Remaining Bugs
+
+- 
+
+### Validator Testing
+
+- 
+    - 
+
+## Deployment
+
+-  
+  - 
+  - 
+  - 
+
+## Credits
+
+  - 
+  - 
