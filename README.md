@@ -36,4 +36,12 @@ Here is the live version of my project. - https://cash-point-2ee1f9c68969.heroku
 
     - which now I know it is in line 30, the problem would be with "else" and I have to investigate.
 
-    
+### Remaining Bugs
+
+- No bugs remaining
+
+### Validator Testing
+
+- PEP8
+    - No errors were returned form PEP8online.com
+
