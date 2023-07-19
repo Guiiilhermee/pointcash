@@ -39,7 +39,9 @@ Option 4 will show up your balance and option 5 will finish your operation.
 ![PIN number](https://user-images.githubusercontent.com/127660583/254709727-84865923-a48b-477f-a92b-b40df2653de0.png)
 
 
+- If the user enter with a different number the program prints Invalid option. Please try again.
 
+![Invalid option](https://user-images.githubusercontent.com/127660583/254733837-f16a0dcd-740e-4ec2-8e0f-2c92abadf506.png)
 ### Future Features
 
 - The Google sheet is already synchronized with the program and I would like to set up account number and PIN to start the program, like a real ATM machine.
