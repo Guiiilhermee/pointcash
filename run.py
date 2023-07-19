@@ -20,7 +20,7 @@ class atm_machine:
         self.balance = 1500
 
     def deposit(self, balance):
-        self.deposit += balance
+        self.balance += balance
         print(f"Done! €{balance:.2f} Balance: €{self.balance:.2f}")
 
     def withdraw(self, balance):
@@ -46,6 +46,9 @@ class atm_machine:
         print("3. Transfer")
         print("4. Check balance")
         print("0. Exit")
+
+    def check_balance(self):
+        print(f"balance: €{self.balance:.2f}")
 
 
 account_number = input("Enter your account number:\n ")
