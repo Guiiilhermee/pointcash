@@ -14,3 +14,26 @@ Here is the live version of my project. - https://cash-point-2ee1f9c68969.heroku
 - The Google sheet is already synchronized with the program and I would like to set up account number and PIN to start the program, like a real ATM machine.
 - Allow more options
 - Allow aditional languages
+
+### Testing
+
+- I have tested this program by doing:
+
+    - Passed the code through a PEP8 Linter, fixed and confirmed that there are no problems.
+    - Tested in my own terminal and the CI Heroku terminal.
+    - Given invalid inputs: when the number does not match the option and different amounts.
+
+### Bugs
+
+- Solved bugs
+
+    - When I wrote my project and ran it with python3 run.py sometimes showed up this message
+    
+    “File "run.py", line 30
+     else:
+     ^
+    SyntaxError: invalid syntax”
+
+    - which now I know it is in line 30, the problem would be with "else" and I have to investigate.
+
+    
