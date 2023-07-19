@@ -45,3 +45,18 @@ Here is the live version of my project. - https://cash-point-2ee1f9c68969.heroku
 - PEP8
     - No errors were returned form PEP8online.com
 
+## Deployment
+
+This project was deployed using Code Institute's mock terminal for Heroku.
+
+- Steps for deployment:
+  - Create an new Heroku app
+  - Set the buildbacks to Python and NodeJS in that order
+  - Link the Heroku app to the repository
+  - Click on Deploy
+  - Run program
+
+## Credits
+
+  - Unacademy for the details of the ATM machine
+  - Deployment terminal from Code Institute.
