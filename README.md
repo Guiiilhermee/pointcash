@@ -14,7 +14,7 @@ Point Cash is based on ATM machine program.
 
 In this version, the user can add any number on account number and PIN and set the option that you wish.
 
-In options the user can choose number 1, 2, 3, 4 or 5.
+In options the user can choose number 1, 2, 3, 4 or 0.
 
 1. Deposit
 2. Withdraw
