@@ -20,11 +20,11 @@ In options the user can choose number 1, 2, 3, 4 or 5.
 2. Withdraw
 3. Transfer
 4. Check Balance
-5. Exit
+0. Exit
 
 Between 1 and 3 enter with the desired amount to make what you wish
 
-Option 4 will show up your balance and option 5 will finish your operation.
+Option 4 will show up your balance and option 0 will finish your operation.
 
 ## Features 
 
@@ -39,9 +39,30 @@ Option 4 will show up your balance and option 5 will finish your operation.
 ![PIN number](https://user-images.githubusercontent.com/127660583/254709727-84865923-a48b-477f-a92b-b40df2653de0.png)
 
 
-- If the user enter with a different number the program prints Invalid option. Please try again.
+- After add Account number and pin the display will show options and the user can choose one.
+
+![options](https://user-images.githubusercontent.com/127660583/254740291-a2faf02b-724d-4290-948d-04b66e48bd47.png)
+
+- If the user enter with a different number the program prints "Invalid option. Please try again."
 
 ![Invalid option](https://user-images.githubusercontent.com/127660583/254733837-f16a0dcd-740e-4ec2-8e0f-2c92abadf506.png)
+
+- If the user enter with a high amount the program prints "Insufficient balance."
+
+![ins. balance](https://user-images.githubusercontent.com/127660583/254709731-56884122-611d-4daa-a9c6-929773ea0022.png)
+
+- When the user enter with option 1 "deposit" and just set the amount.
+
+![deposit](https://user-images.githubusercontent.com/127660583/254709721-c064f288-1ac8-491d-aa16-3344fc7bfb3a.png)
+
+- When the user enter with option 4 "check balance" the display prints the current balance on the screen.
+
+![balance](https://user-images.githubusercontent.com/127660583/254739554-6e05813d-f036-4997-ad71-5e9f2fea8612.png)
+
+- When the user enter with option 0 "Exit" the program stops showing a message "Thanks for using Cash Point."
+
+![exit](https://user-images.githubusercontent.com/127660583/254740291-a2faf02b-724d-4290-948d-04b66e48bd47.png)
+
 ### Future Features
 
 - The Google sheet is already synchronized with the program and I would like to set up account number and PIN to start the program, like a real ATM machine.
