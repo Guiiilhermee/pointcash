@@ -16,11 +16,11 @@ In this version, the user can add any number on account number and PIN and set t
 
 In options the user can choose number 1, 2, 3, 4 or 0.
 
-1. Deposit
-2. Withdraw
-3. Transfer
-4. Check Balance
-0. Exit
+1. '1' - Deposit
+2. '2' - Withdraw
+3. '3' - Transfer
+4. '4' - Check Balance
+0. '0' - Exit
 
 Between 1 and 3 enter with the desired amount to make what you wish
 
@@ -51,7 +51,7 @@ Option 4 will show up your balance and option 0 will finish your operation.
 
 ![ins. balance](https://user-images.githubusercontent.com/127660583/254709731-56884122-611d-4daa-a9c6-929773ea0022.png)
 
-- When the user enter with option 1 "deposit" and just set the amount.
+- When the user enter with option 1 "deposit" just set the amount.
 
 ![deposit](https://user-images.githubusercontent.com/127660583/254709721-c064f288-1ac8-491d-aa16-3344fc7bfb3a.png)
 
@@ -70,6 +70,8 @@ Option 4 will show up your balance and option 0 will finish your operation.
 - Allow aditional languages
 
 ### Data Model
+
+class atm_machine. This class represents an ATM account and includes all attributes on the program.
 
 ### Testing
 
